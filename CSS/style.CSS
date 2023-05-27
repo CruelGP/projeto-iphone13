@@ -8,7 +8,7 @@ list-style: none;
 text-decoration: none;}
 
 img#img-logo
-{width: 40px;}
+{width: 20px;}
 
 header > nav
 {background-color: #333;}
@@ -20,6 +20,7 @@ align-items: center;
 font-size: 0.7rem;
 padding: 0 1 rem;
 max-width: 1000px;
+height: 48px;
 margin: auto;}
 
 ul#nav-bar  a
