@@ -99,6 +99,9 @@ main#main-content .btn
 padding: 0.8rem 1.4rem;
 align-self: center;}
 
+div#scrol
+{overflow-x: auto;}
+
 main#main-content #product-image
 {max-width: 1000px;
 margin: 3rem auto;
