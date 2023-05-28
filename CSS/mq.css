@@ -1,0 +1,33 @@
+@media screen and (max-width:670px){
+    span#menu-burger
+    {display: block;}
+
+    li.ilist
+    {display:none;}
+
+div#bottom-header
+{font-size: 0.8rem;
+padding: 1rem;
+border-bottom: 1px solid #ccc;
+height:140px;}
+
+div#bottom-header-inner
+{height: 300px;
+display: block;}
+
+div#bottom-header h3
+{font-size: 1.2rem;
+padding: 10px;}
+
+div#bottom-header-links a
+{display: block;
+color: #333;
+padding: 5px;}
+
+div#bottom-header-links a.btn
+{background-color: #0071e3;
+display: inline-block;
+border-radius: 10rem;
+color: #fff;}
+
+}
