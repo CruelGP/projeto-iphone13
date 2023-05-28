@@ -24,8 +24,17 @@ height: 48px;
 margin: auto;}
 
 ul#nav-bar  a
-{color: white;
+{color: #ffffff;
 transition: 0.4s;}
+
+span#menu-burger
+{color: #ccc;}
+
+img#bolsa
+{width: 25px;}
+
+img#lupa
+{width: 18px;}
 
 ul#nav-bar a:hover
 {color:#fff}
@@ -100,7 +109,11 @@ padding: 0.8rem 1.4rem;
 align-self: center;}
 
 div#scrol
-{overflow-x: auto;}
+{overflow-x: auto;
+display: flex;}
+
+div#scrol::-webkit-scrollbar
+{width: 0;}
 
 main#main-content #product-image
 {max-width: 1000px;
